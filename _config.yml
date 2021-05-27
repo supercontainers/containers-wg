@@ -1,0 +1,32 @@
+title: Containers Working Group
+description: Containers Working Group for OCI and CNCF coordination 
+baseurl: "/containers-wg"
+
+repo: https://github.com/supercontainers/containers-wg
+
+permalink: pretty
+exclude: 
+ - "*.gem"
+ - _site
+ - _ideas/_template.md
+ - "Gemfile"
+ - "Gemfile.lock"
+
+# Collections
+collections:
+  ideas:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: "_ideas"
+      type: "ideas"
+    values:
+      layout: idea
+
+# Aux links for the upper right navigation
+aux_links:
+  "Supercontainers on GitHub":
+    - "//github.com/supercontainers"

@@ -1,5 +1,6 @@
 ---
 title: Pushing Arbitrary Blobs
+discussion: https://github.com/supercontainers/containers-wg/discussions/3
 ---
 
 ---

@@ -1,5 +1,6 @@
 ---
 title: A Title for Your Idea
+discussion: create a discussion link and copy paste here https://github.com/supercontainers/containers-wg/discussions
 ---
 
 ---

@@ -1,6 +1,9 @@
 ---
 title: Batch Orchestration
+discussion: https://github.com/supercontainers/containers-wg/discussions/4
 ---
+
+
 
 ---
 

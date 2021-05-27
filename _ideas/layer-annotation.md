@@ -1,5 +1,6 @@
 ---
 title: Layer Annotation
+discussion: https://github.com/supercontainers/containers-wg/discussions/7
 ---
 
 ---

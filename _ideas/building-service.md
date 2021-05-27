@@ -1,5 +1,6 @@
 ---
 title: A Building Service
+discussion: https://github.com/supercontainers/containers-wg/discussions/5
 ---
 
 ---

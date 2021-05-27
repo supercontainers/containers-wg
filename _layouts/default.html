@@ -54,6 +54,7 @@
           {% endif %}
         {% endunless %}
         <div id="main-content" class="page-content" role="main">
+          {% if page.discussion %}<a style="float:right" href="{{ page.discussion }}" target="_blank">🎙️ Discussion</a>{% endif %}
           {{ content }}
 
           {% if page.has_children == true and page.has_toc != false %}

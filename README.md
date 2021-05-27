@@ -5,7 +5,12 @@ they can be integrated into existing or new Open Container Initiative (OCI) proj
 Each idea document is in [_ideas](_ideas) and renders to an interface for easier
 consumption.
 
-⭐ [View the Ideas](https://hpc.github.io/containers-wg/) ⭐
+⭐ [View the Ideas](https://supercontainers.github.io/containers-wg/) ⭐
+
+You might also be interested in:
+
+ - [Discussions](https://github.com/supercontainers/containers-wg/discussions) for each idea on the Discussion Board here
+ - [Open an issue](https://github.com/supercontainers/containers-wg/issues) to request an invite link to the hpc-containers slack, we are in the `#containers-wg` channel
 
 ## How does it work?
 
@@ -31,7 +36,7 @@ be able to have confident, clear answers for all of the following.
 
 ## OCI Projects and Specs
 
-The site has a section for [OCI projects and specs](https://hpc.github.io/containers-wg/docs/oci/)
+The site has a section for [OCI projects and specs](https://supercontainers.github.io/containers-wg/docs/oci/)
 that provides an overview, and can be used to write general feedback.
 
 ### Voting

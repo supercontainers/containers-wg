@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Shifter
-nav_order: 2
+nav_order: 4
 parent: HPC Projects
 ---
 

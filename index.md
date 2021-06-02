@@ -21,9 +21,9 @@ Please [see the repository]({{ site.repo }}) for details on how to contribute.
 
 ## Content
 
- - [Ideas]({{ site.baseurl }}/docs/ideas/): for how we can contribute a spec or project.
- - [OCI Specs and Projects]({{ site.baseurl }}/docs/oci/): review (and comments) on current OCI specs and projects.
- - [HPC projects]({{ site.baseurl }}/docs/hpc-projects/): notes about why OCI works (or not) for our projects.
+ - [Ideas]({{ site.baseurl }}/ideas/): for how we can contribute a spec or project.
+ - [OCI Specs and Projects]({{ site.baseurl }}/oci/): review (and comments) on current OCI specs and projects.
+ - [HPC projects]({{ site.baseurl }}/hpc-projects/): notes about why OCI works (or not) for our projects.
  - [Contributing]({{ site.repo }}): instructions are in the repository README.
 
 ## Ideas

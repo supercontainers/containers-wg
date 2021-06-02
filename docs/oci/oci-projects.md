@@ -22,7 +22,8 @@ If you are a developer, as we discuss these projects, think about them in the co
  - How would I want to use this to solve a particular problem?
  - Where might I have seen this in the wild, and not realized it's a part of OCI?
 
-Specific examples will be given to help guide your thinking.
+You can watch a series of [introductory videos]({{ site.baseurl }}/docs/introduction/videos/) or continue
+reading for specs and specific examples to guide your thinking.
 
 ### The Image Specification
 

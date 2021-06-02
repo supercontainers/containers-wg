@@ -45,6 +45,9 @@ set of layers on demand. For example, a user could build a custom container with
 
 ## What pre-existing work or software can support these ideas?
 
+ - Charliecloud has an open bug related to this: [hpc/charliecloud#165](https://github.com/hpc/charliecloud/issues/165)
+   - related [FAQ entry](https://hpc.github.io/charliecloud/faq.html#ch-builder2tar-gives-incorrect-image-sizes)
+
 ## Relevant OCI Issues
 
  - [#235](https://github.com/opencontainers/distribution-spec/issues/235)

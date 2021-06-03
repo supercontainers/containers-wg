@@ -414,7 +414,7 @@ hr {
 
 @media (min-width: 70rem) {
     .main-content {
-        padding-left: 2rem;
+        padding-left: 4rem;
         margin-left: calc((100% - 1032px) / 2 + 32px)
     }
 }

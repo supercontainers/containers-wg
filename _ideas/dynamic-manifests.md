@@ -1,6 +1,6 @@
 ---
 title: Dynamic Manifests
-discussion: https://github.com/supercontainers/containers-wg/discussions/6
+discussion: https://github.com/supercontainers/containers-wg/discussions/10
 ---
 
 ---

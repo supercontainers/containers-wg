@@ -1,6 +1,6 @@
 ---
 title: Monolithic Image Layer
-discussion: create a discussion link and copy paste here https://github.com/supercontainers/containers-wg/discussions
+discussion: https://github.com/supercontainers/containers-wg/discussions/12
 ---
 
 ---

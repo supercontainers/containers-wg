@@ -16,6 +16,20 @@ parent: HPC Projects
 
 ---
 
+## Fully unprivileged containers
+
+Our focus is on fully-unprivileged containers like Charliecloud, with no
+privileged helper to set up namespaces. This document refers to this concept
+as simply "unprivileged" for brevity.
+
+Such unprivileged containers are both possible and a valid/important use case.
+In HPC this supports container use and building by normal users on the
+hardware where they will actually run.
+
+These ideas are detailed in our pre-print [Minimizing privilege for building
+HPC containers](https://arxiv.org/abs/2104.07508), by Priedhorsky, Canon,
+Randles and Younge.
+
 ## Current OCI status
 
 The Charliecloud team has (partially) implemented OCI in two contexts:
@@ -63,10 +77,6 @@ group related things together and avoid forward references.
 
 I am very interested in feedback and questions.
 
-*Note:* Here, "unprivileged" refers to fully unprivileged containers like
-Charliecloud, with no privileged helper to set up namespaces. This is called
-"Type III" in [our taxonomy](https://arxiv.org/abs/2104.07508).
-
 ### A. Meta
 
   1. In general, simply "following the specification" is insufficient; the
@@ -84,12 +94,18 @@ Charliecloud, with no privileged helper to set up namespaces. This is called
      whether they go to different spec documents, the same document (including
      more than once the very next section!), or a separate site.
 
-  1. The specification lacks any way to evaluate conformance (i.e., a test
-     suite) or non-cursory examples, e.g. edge cases or a complete image with
-     all the hashes computed. (For example, we are only able to test one
-     flavor of whiteouts (non-opaque) because we couldn't make Docker generate
-     the other flavor (opaque) even when it seemed appropriate (`RUN rm -Rf
-     mydir`).)
+  1. The spec does not have:
+
+     * a way to evaluate conformance (i.e., a test suite), except for a
+       [registry conformance
+       test](https://github.com/opencontainers/distribution-spec/blob/main/conformance/README.md),
+       or
+     * sufficient examples, e.g. edge cases and a complete image with all
+       the hashes computed.
+
+     For example, we are only able to test one flavor of whiteouts
+     (non-opaque) because we couldn't make Docker generate the other flavor
+     (opaque) even when it seemed appropriate (`RUN rm -Rf mydir`).
 
   1. The spec documents often lack introductory material. For example, see
      [OCI Content

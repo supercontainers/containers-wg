@@ -18,7 +18,7 @@ discussion: https://github.com/supercontainers/containers-wg/discussions/6
 ## What are the challenges that we are trying to solve?
 
  - Containers are not able to provide enough metadata about binaries / libraries inside to assess compatibility with a host.
- - Existing container metadata does not come in any standard format that can be easily parsed.  HPC developers often must parse build files, scripts, image layers, etc. (when available) to determine the contents.
+ - Although there is a limited ability to parse high level container metadata, details about the contents of containers does not come in any standard format that can be easily parsed.  HPC developers often must parse build files, scripts, image layers, etc. (when available) to determine the contents.
  - Configuration of software and environment variables can affect reproducibility but are rarely captured in metadata. 
 
 Containers can seem like black boxes. But for running a container on HPC, we need to know about:
@@ -54,4 +54,3 @@ The following works are relevant:
  - [A Case for Portability and Reproduibility of HPC Containers](https://www.canopie-hpc.org/wp-content/uploads/2019/12/ajy-sc19_canopie-PRCHPC.pdf)
 
 ## Relevant OCI Issues
-

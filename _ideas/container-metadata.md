@@ -46,7 +46,7 @@ Containers can seem like black boxes. But for running a container on HPC, we nee
 
 Existing technologies that address parts of these ideas (incompletely):
  - Docker provides [Object labels](https://docs.docker.com/config/labels-custom-metadata/) that are optional for images, containers, volumes, and more (such as the `LABEL` command within the Dockerfile).
- - Singularity definition files provide a few relevant environments
+ - Singularity [definition files](https://sylabs.io/guides/3.8/user-guide/definition_files.html) provide a few relevant sections, such as `label` and `help`.  More Singularity metadata discussion [here](https://sylabs.io/guides/3.8/user-guide/environment_and_metadata.html).
 
 The following works are relevant:
 

@@ -18,8 +18,10 @@ discussion: https://github.com/supercontainers/containers-wg/discussions/6
 ## What are the challenges that we are trying to solve?
 
  - Containers are not able to provide enough metadata about binaries / libraries inside to assess compatibility with a host.
+ - Existing container metadata does not come in any standard format that can be easily parsed.  HPC developers often must parse build files, scripts, image layers, etc. (when available) to determine the contents.
+ - Configuration of software and environment variables can affect reproducibility but are rarely captured in metadata. 
 
-Containers are black boxes. But for running a container on HPC, we need to know about:
+Containers can seem like black boxes. But for running a container on HPC, we need to know about:
 
 1. attributes of the applications and binaries that are contained inside
 2. what requirements might be for running (e.g. hardware, memory, disk space)
@@ -41,6 +43,10 @@ Containers are black boxes. But for running a container on HPC, we need to know 
 
 
 ## What pre-existing work or software can support these ideas?
+
+Existing technologies that address parts of these ideas (incompletely):
+ - Docker provides [Object labels](https://docs.docker.com/config/labels-custom-metadata/) that are optional for images, containers, volumes, and more (such as the `LABEL` command within the Dockerfile).
+ - Singularity definition files provide a few relevant environments
 
 The following works are relevant:
 

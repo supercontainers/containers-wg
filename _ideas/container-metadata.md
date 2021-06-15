@@ -18,8 +18,10 @@ discussion: https://github.com/supercontainers/containers-wg/discussions/6
 ## What are the challenges that we are trying to solve?
 
  - Containers are not able to provide enough metadata about binaries / libraries inside to assess compatibility with a host.
+ - Although there is a limited ability to parse high level container metadata, details about the contents of containers does not come in any standard format that can be easily parsed.  HPC developers often must parse build files, scripts, image layers, etc. (when available) to determine the contents.
+ - Configuration of software and environment variables can affect reproducibility but are rarely captured in metadata. 
 
-Containers are black boxes. But for running a container on HPC, we need to know about:
+Containers can seem like black boxes. But for running a container on HPC, we need to know about:
 
 1. attributes of the applications and binaries that are contained inside
 2. what requirements might be for running (e.g. hardware, memory, disk space)
@@ -42,10 +44,13 @@ Containers are black boxes. But for running a container on HPC, we need to know 
 
 ## What pre-existing work or software can support these ideas?
 
+Existing technologies that address parts of these ideas (incompletely):
+ - Docker provides [Object labels](https://docs.docker.com/config/labels-custom-metadata/) that are optional for images, containers, volumes, and more (such as the `LABEL` command within the Dockerfile).
+ - Singularity [definition files](https://sylabs.io/guides/3.8/user-guide/definition_files.html) provide a few relevant sections, such as `label` and `help`.  More Singularity metadata discussion [here](https://sylabs.io/guides/3.8/user-guide/environment_and_metadata.html).
+
 The following works are relevant:
 
  - [ArchSpec](https://tgamblin.github.io/pubs/archspec-canopie-hpc-2020.pdf)
  - [A Case for Portability and Reproduibility of HPC Containers](https://www.canopie-hpc.org/wp-content/uploads/2019/12/ajy-sc19_canopie-PRCHPC.pdf)
 
 ## Relevant OCI Issues
-

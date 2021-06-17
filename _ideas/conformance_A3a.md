@@ -28,7 +28,7 @@ implementations can say what parts of OCI they do and don't support.
 ## How do these ideas break down into...
 
 ### Already existing OCI specs?
-
+This suggestion is relevant to the image, runtime, and a distribution client spec. Any news specs that arise should also be developed with conformance testing as a priority.
 
 ### A new project (CNCF or OCI)
 
@@ -39,4 +39,3 @@ implementations can say what parts of OCI they do and don't support.
 ## What pre-existing work or software can support these ideas?
 
 ## Relevant OCI Issues
-

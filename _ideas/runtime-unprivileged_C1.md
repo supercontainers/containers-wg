@@ -40,7 +40,7 @@ still allow overriding required things to work around config errors.)
 ## How do these ideas break down into...
 
 ### Already existing OCI specs?
-
+This idea is relevant to the runtime spec.
 
 ### A new project (CNCF or OCI)
 
@@ -54,4 +54,3 @@ Charliecloud just ignores all the things in `config.json` that it doesn't
 support.
 
 ## Relevant OCI Issues
-

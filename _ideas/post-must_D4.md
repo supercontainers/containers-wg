@@ -27,7 +27,7 @@ Require that registries support POST blob upload.
 ## How do these ideas break down into...
 
 ### Already existing OCI specs?
-
+This idea is relevant to the distribution spec.
 
 ### A new project (CNCF or OCI)
 
@@ -38,4 +38,3 @@ Require that registries support POST blob upload.
 ## What pre-existing work or software can support these ideas?
 
 ## Relevant OCI Issues
-

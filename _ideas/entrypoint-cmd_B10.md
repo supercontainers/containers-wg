@@ -35,7 +35,7 @@ arguments.
 
 
 ### A new project (CNCF or OCI)
-
+If a Dockerfile spec could be created, this idea would supplement it.
 
 ## Questions?
 
@@ -43,4 +43,3 @@ arguments.
 ## What pre-existing work or software can support these ideas?
 
 ## Relevant OCI Issues
-

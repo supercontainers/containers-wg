@@ -51,7 +51,7 @@ It could be an opportunity to fix some of the inconsistencies, also; e.g.
 
 
 ### A new project (CNCF or OCI)
-
+This idea suggests creating a new spec to describe the format of the Dockerfile. It should also come with conformance tests.
 
 ## Questions?
 
@@ -62,4 +62,3 @@ Charliecloud has made a lot of progress formalizing Dockerfile syntax and
 explaining where [we found ambiguities](https://hpc.github.io/charliecloud/command-usage.html#compatibility-with-other-dockerfile-interpreters).
 
 ## Relevant OCI Issues
-

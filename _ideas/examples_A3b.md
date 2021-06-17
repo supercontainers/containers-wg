@@ -35,7 +35,7 @@ spec.
 ## How do these ideas break down into...
 
 ### Already existing OCI specs?
-
+This idea is relevant to all existing OCI specifications. Ideally there would be a standard means to define and display examples for the reader to quickly understand. If a documentation or similar working group is accepted this could be worked on.
 
 ### A new project (CNCF or OCI)
 
@@ -46,4 +46,3 @@ spec.
 ## What pre-existing work or software can support these ideas?
 
 ## Relevant OCI Issues
-

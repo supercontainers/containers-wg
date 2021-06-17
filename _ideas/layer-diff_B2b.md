@@ -46,7 +46,7 @@ Store layers as binary diffs.
 ## How do these ideas break down into...
 
 ### Already existing OCI specs?
-
+This idea would be relevant for specs that are interested in interacting with an image manifest with layers.
 
 ### A new project (CNCF or OCI)
 
@@ -65,4 +65,3 @@ tarballs in-place.
 
 
 ## Relevant OCI Issues
-

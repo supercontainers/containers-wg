@@ -41,7 +41,7 @@ input is.
 ## How do these ideas break down into...
 
 ### Already existing OCI specs?
-
+This suggestion would be relevant to any interactions with [digests](https://github.com/opencontainers/go-digest).
 
 ### A new project (CNCF or OCI)
 
@@ -52,4 +52,3 @@ input is.
 ## What pre-existing work or software can support these ideas?
 
 ## Relevant OCI Issues
-

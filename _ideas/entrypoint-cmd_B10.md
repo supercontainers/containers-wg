@@ -1,6 +1,6 @@
 ---
 title: ENTRYPOINT and CMD are too complex
-discussion: FIXME
+discussion: https://github.com/supercontainers/containers-wg/discussions/30
 ---
 
 ---

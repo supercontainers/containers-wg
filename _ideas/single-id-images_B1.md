@@ -1,6 +1,6 @@
 ---
 title: Single-ID images
-discussion: FIXME
+discussion: https://github.com/supercontainers/containers-wg/discussions/19
 ---
 
 ---

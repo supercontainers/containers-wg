@@ -31,7 +31,8 @@ Please [see the repository]({{ site.repo }}) for details on how to contribute.
 The following ideas are under development!
 
 <ul>
-{% for idea in site.ideas %}
+{% assign ideas = site.ideas | sort: 'title' %}
+{% for idea in ideas %}
    <li><a href="{{ site.baseurl }}{{ idea.url }}">{{ idea.title }}</a></li>
 {% endfor %}
 </ul>

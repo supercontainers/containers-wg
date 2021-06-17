@@ -1,6 +1,6 @@
 ---
 title: Digest input clarification
-discussion: 
+discussion: https://github.com/supercontainers/containers-wg/discussions/32
 ---
 
 ---

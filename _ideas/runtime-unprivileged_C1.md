@@ -1,6 +1,6 @@
 ---
 title: Fully unprivileged runtime support
-discussion: FIXME
+discussion: https://github.com/supercontainers/containers-wg/discussions/21
 ---
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: Content-Length: required
-discussion: FIXME
+title: "Content-Length: required"
+discussion: https://github.com/supercontainers/containers-wg/discussions/33
 ---
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: Whiteouts out-of-band
-discussion: FIXME
+discussion: https://github.com/supercontainers/containers-wg/discussions/17
 ---
 
 ---

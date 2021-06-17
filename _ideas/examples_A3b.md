@@ -1,6 +1,6 @@
 ---
 title: More examples in spec
-discussion: FIXME
+discussion: https://supercontainers.github.io/containers-wg/ideas/examples_A3b/
 ---
 
 ---

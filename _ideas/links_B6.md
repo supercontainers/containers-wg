@@ -1,6 +1,6 @@
 ---
 title: Clarify symlink and hardlink rules
-discussion: FIXME
+discussion: https://github.com/supercontainers/containers-wg/discussions/26
 ---
 
 ---

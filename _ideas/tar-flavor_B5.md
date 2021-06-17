@@ -1,6 +1,6 @@
 ---
 title: Tar flavor
-discussion: FIXME
+discussion: https://github.com/supercontainers/containers-wg/discussions/18
 ---
 
 ---

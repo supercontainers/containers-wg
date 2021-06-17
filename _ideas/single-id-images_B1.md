@@ -17,6 +17,11 @@ discussion: FIXME
 
 ## What are the challenges that we are trying to solve?
 
+Fully unprivileged container implementations, with no setuid/setgid/setcap
+binaries and no use of privileged helpers to set up namespaces, are both
+possible and a valid/important use case. In HPC this supports container use
+and building by normal users on the hardware where they will actually run.
+
 OCI currently assumes that arbitrary UIDs and GIDs in image layers will be
 preserved. This is not the case with fully unprivileged containers, which have
 access only to a single UID and a small number of GIDs that are not preserved
@@ -28,8 +33,9 @@ IDs; they might be those of the invoking user or reset to something arbitrary
 to avoid leaking internal IDs (Charliecloud uses 0:0).
 
 (Details and subtleties on all this in [Minimizing privilege for building HPC
-containers](https://arxiv.org/abs/2104.07508), by Priedhorsky, Canon, Randles
-and Younge.)
+containers][1], by Priedhorsky, Canon, Randles and Younge.)
+
+[1]: https://arxiv.org/abs/2104.07508
 
 ## What ideas do we have for how to address these challenges?
 

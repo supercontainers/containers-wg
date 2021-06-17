@@ -32,6 +32,7 @@ meaningful, that match the manifest/config.
 
 ### Already existing OCI specs?
 
+This suggestion would be a change to the distribution spec.
 
 ### A new project (CNCF or OCI)
 

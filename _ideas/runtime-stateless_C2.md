@@ -73,10 +73,9 @@ Brainstorming (this needs more thinking & feedback):
 6. Allow a status `unknown` for runtimes that don't track containers.
 
 7. Don't assume anything about the process structure of the runtime, including
-   whether any runtime process will be persistent or available. (For example,
+   whether any runtime process will be persistent or available. For example,
    `ch-run-oci(1)` keeps a process that literally does nothing so that it can
-   return the process ID to Buildah, which checks that the process is
-   running.)
+   return the process ID to Buildah, which checks that the process is running.
 
 ## How do these ideas break down into...
 

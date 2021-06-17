@@ -18,11 +18,12 @@ discussion: FIXME
 ## What are the challenges that we are trying to solve?
 
 `ENTRYPOINT` and `CMD` interactions are too complex. See the [16-cell
-matrix](https://docs.docker.com/engine/reference/builder/#understand-how-cmd-and-entrypoint-interact)
-in the Dockerfile reference and note its (a) large size and (b)
+matrix][1] in the Dockerfile reference and note its (a) large size and (b)
 inconsistencies. For example, behavior differs between `ENTRYPOINT` specified
 as a command line (`ENTRYPOINT foo bar`) or list (`ENTRYPOINT ["foo",
 "bar"]`), and the difference between the 2nd and 3rd lines is unclear.
+
+[1]: https://docs.docker.com/engine/reference/builder/#understand-how-cmd-and-entrypoint-interact
 
 ## What ideas do we have for how to address these challenges?
 
@@ -35,6 +36,7 @@ arguments.
 
 
 ### A new project (CNCF or OCI)
+
 If a Dockerfile spec could be created, this idea would supplement it.
 
 ## Questions?

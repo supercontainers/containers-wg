@@ -38,6 +38,8 @@ Tighten up the spec to cover these and related ambiguities.
 
 ### Already existing OCI specs?
 
+Image spec.
+
 
 ### A new project (CNCF or OCI)
 

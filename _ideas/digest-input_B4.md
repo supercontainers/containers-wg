@@ -35,13 +35,16 @@ of where the mistake is.)
 
 ## What ideas do we have for how to address these challenges?
 
-Whenever a digest is mentioned, the spec should say right there there what the
-input is.
+Whenever a digest is introduced by a spec, it should state in the same
+paragraph as the introduction (or a similar close location) what the input is.
 
 ## How do these ideas break down into...
 
 ### Already existing OCI specs?
-This suggestion would be relevant to any interactions with [digests](https://github.com/opencontainers/go-digest).
+
+This suggestion would be relevant to any interactions with [digests][1].
+
+[1]: https://github.com/opencontainers/go-digest
 
 ### A new project (CNCF or OCI)
 

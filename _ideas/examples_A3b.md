@@ -19,10 +19,13 @@ discussion: FIXME
 
 The OCI specs have lots of examples, but they tend to be (a) snippets of (b)
 the common cases. However, implementers will have trouble with edge cases and
-getting everything to work together. So, the spec needs more examples to illustrate:
+getting everything to work together. So, the spec needs more examples to
+illustrate:
 
 * edge cases
-* complete interactions, e.g. a sample image in a tarball or a complete transcript of a pull session
+
+* complete interactions, e.g. a sample image in a tarball or a complete
+  transcript of a pull session
 
 ## What ideas do we have for how to address these challenges?
 
@@ -35,7 +38,11 @@ spec.
 ## How do these ideas break down into...
 
 ### Already existing OCI specs?
-This idea is relevant to all existing OCI specifications. Ideally there would be a standard means to define and display examples for the reader to quickly understand. If a documentation or similar working group is accepted this could be worked on.
+
+This idea is relevant to all existing OCI specifications. Ideally there would
+be a standard means to define and display examples for the reader to quickly
+understand. If a documentation or similar working group is accepted this could
+be worked on.
 
 ### A new project (CNCF or OCI)
 

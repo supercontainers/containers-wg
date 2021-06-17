@@ -17,7 +17,10 @@ discussion: FIXME
 
 ## What are the challenges that we are trying to solve?
 
-No way to evaluate OCI conformance (aside from the [registry conformance test](https://github.com/opencontainers/distribution-spec/blob/main/conformance/README.md)).
+No way to evaluate OCI conformance (aside from the [registry conformance
+test][1].
+
+[1]: https://github.com/opencontainers/distribution-spec/blob/main/conformance/README.md
 
 ## What ideas do we have for how to address these challenges?
 
@@ -28,7 +31,10 @@ implementations can say what parts of OCI they do and don't support.
 ## How do these ideas break down into...
 
 ### Already existing OCI specs?
-This suggestion is relevant to the image, runtime, and a distribution client spec. Any news specs that arise should also be developed with conformance testing as a priority.
+
+This suggestion is relevant to the image, runtime, and a distribution client
+spec. Any news specs that arise should also be developed with conformance
+testing as a priority.
 
 ### A new project (CNCF or OCI)
 

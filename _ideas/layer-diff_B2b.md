@@ -35,9 +35,10 @@ problems:
   unpacked by standard tar implementations. They must be instead "applied" by
   purpose-built procedures.
 
-Aleksa Sarai has [previously
-critiqued](https://www.cyphar.com/blog/post/20190121-ociv2-images-i-tar)
-tarball layers in detail.
+My critique is based in part on Aleksa Sarai's [previous critique][1] of
+tarball layers in quite a bit more detail.
+
+[1]: https://www.cyphar.com/blog/post/20190121-ociv2-images-i-tar
 
 ## What ideas do we have for how to address these challenges?
 
@@ -46,7 +47,9 @@ Store layers as binary diffs.
 ## How do these ideas break down into...
 
 ### Already existing OCI specs?
-This idea would be relevant for specs that are interested in interacting with an image manifest with layers.
+
+This idea would be relevant for specs that are interested in interacting with
+an image manifest with layers.
 
 ### A new project (CNCF or OCI)
 

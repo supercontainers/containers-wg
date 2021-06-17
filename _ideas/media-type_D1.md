@@ -30,6 +30,7 @@ types, it can just say so with the `Accepts:` header.
 ## How do these ideas break down into...
 
 ### Already existing OCI specs?
+
 This idea is relevant to the distribution spec.
 
 ### A new project (CNCF or OCI)

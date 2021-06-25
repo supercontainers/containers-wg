@@ -19,6 +19,15 @@ In this site you will find:
 
 Please [see the repository]({{ site.repo }}) for details on how to contribute.
 
+## In Progress
+
+For this week, we have two things underway! 
+
+1. To start with an effort to improve the overall interface to read OCI documentation, ([this issue](https://github.com/supercontainers/containers-wg/issues/9)) we've created the [rfc-jekyll](https://vsoch.github.io/rfc-jekyll/) template. This will be discussed at the June 30th OCI meeting.
+2. To tackle [clarification of dealing with symbolic and hardlinks](https://supercontainers.github.io/containers-wg/ideas/links_B6/) in the image spec we've opened [an issue](https://github.com/opencontainers/image-spec/issues/857) for discussion and started working on an update to the image-spec to address it.
+
+Please feel free to jump in to provide feedback or help with these efforts!
+
 ## Content
 
  - [Ideas]({{ site.baseurl }}/ideas/): for how we can contribute a spec or project.

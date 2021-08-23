@@ -6,6 +6,8 @@ A survey to get some data on container runtime would be nice. Not only which one
 
 ### Container Runtimes
 
+This section is focused to ask about HPC workloads running on HPC container runtimes. Some might use docker to run a single-node container on their workstation - we consider that out of scope because it is hard to differentiate between a service workloads and a HPC workload.
+
 | #  | Question | Type | Answers |
 |:--:|:---------:|:----:|:---------------------:|
 | R1 | Which HPC container runtimes are supported on the system(s) you are working on? | multiple-choice | Charliecloud, Shifter, Singularity, Sarus, Podman, other |

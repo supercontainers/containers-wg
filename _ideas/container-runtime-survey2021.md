@@ -4,19 +4,24 @@ A survey to get some data on container runtime would be nice. Not only which one
 
 ## Questions (early draft)
 
+The `.5` questions are just asking about potential `other` answers we missed.
+
 ### About yourself
+
+Just so that we can get a sense
 
 | #  | Question | Type | Answers |
 |:--:|:---------:|:----:|:---------------------:|
 | A1 | What is your primary environment? | single | National Lab, academia, commercial, other |
-| A2 | How do you rate your experience with **non-HPC containers**? | single | beginner, intermediate, expert |
-| A3 | How do you rate your experience with **HPC containers**? | single | beginner, intermediate, expert |
+| A2 | What is your function? | single | Scientist, Admin, RSE, other |
+| A2.5 | Which functionis not listed in A2? | text | |
+| A3 | How do you rate your experience with **non-HPC containers**? | single | beginner, intermediate, expert |
+| A4 | How do you rate your experience with **HPC containers**? | single | beginner, intermediate, expert |
 
 ### Container Runtimes
 
 This section is focused to ask about HPC workloads running on HPC container runtimes. Some might use docker to run a single-node container on their workstation - we consider that out of scope because it is hard to differentiate between a service workloads and a HPC workload.
 
-The `.5` questions are just asking about potential `other` answers we missed.
 
 | #  | Question | Type | Answers |
 |:--:|:---------:|:----:|:---------------------:|

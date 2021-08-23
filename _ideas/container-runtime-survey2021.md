@@ -52,5 +52,5 @@ The image section aims to get an overview of how folks are dealing with images
 Without making the survey too long, we could also ask the following questions.
 
 1. do you deal with different target architectures in your build process?
-2. Do you use CI/CD?
+2. Do you use CI/CD for automated build and deploy?
 

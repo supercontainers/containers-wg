@@ -8,16 +8,22 @@ A survey to get some data on container runtime would be nice. Not only which one
 
 This section is focused to ask about HPC workloads running on HPC container runtimes. Some might use docker to run a single-node container on their workstation - we consider that out of scope because it is hard to differentiate between a service workloads and a HPC workload.
 
+The `.5` questions are just asking about potential `other` answers we missed.
+
 | #  | Question | Type | Answers |
 |:--:|:---------:|:----:|:---------------------:|
-| R1 | Which HPC container runtimes are supported on the system(s) you are working on? | multiple-choice | Charliecloud, Shifter, Singularity, Sarus, Podman, other |
+| R1 | Which HPC container runtimes are supported on the system(s) you are working on? | multiple | Charliecloud, Shifter, Singularity, Sarus, Podman, other |
 | R1.5 | Which HPC container runtimes are supported on the system(s) and not listed in R1? | text | |
-| R2 | Which HPC container runtimes are you using for your daily workloads? | multiple-choice | Charliecloud, Shifter, Singularity, Sarus, Podman, other |
+| R2 | Which HPC container runtimes are you using for your daily workloads? | multiple | Charliecloud, Shifter, Singularity, Sarus, Podman, other |
 | R2.5 | Which HPC container runtimes are you using for your daily workloads which are not listed in R2? | text | |
-| R3 | Which HPC container runtimes are on your radar but not yet used? | multiple-choice | Charliecloud, Shifter, Singularity, Sarus, Podman, other |
+| R3 | Which HPC container runtimes are on your radar but not yet used? | multiple | Charliecloud, Shifter, Singularity, Sarus, Podman, other |
 | R3.5 | Which HPC container runtimes are on your radar but not yet used and not listed in R3? | text | |
+| R4 | Do you aware of the OCI runtime spec? | single choice | yes / no |
+| R5 | Do you care about the OCI runtime spec? | single choice | yes / no |
 
 ### Images
+
+The image section aims to get an overview of how folks are dealing with images
 
 | #  | Question | Type | Answers |
 |:--:|:---------:|:----:|:---------------------:|
@@ -25,3 +31,13 @@ This section is focused to ask about HPC workloads running on HPC container runt
 | I1.5 | What method did we miss to list in I1? | text | |
 | I2 | Do you use higher-level abstractions on-top of the methods in I1? | multi | hpc-container-maker, repo2docker, spack, other |
 | I2.5 | What method did we miss to list in I2? | text | |
+| I3 | Once build, do you push the image to a central repository? | single | yes / no |
+| I4 | What container repositories are you pushing builds to? | multi | dockerhub, gcr, ecr, quay, github |
+
+### Potentials
+
+Without making the survey to long, we could also ask about.
+
+1. do you deal with different target architectures in your build process?
+2. Do you use CI/CD?
+

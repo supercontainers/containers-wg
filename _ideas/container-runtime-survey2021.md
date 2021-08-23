@@ -1,6 +1,6 @@
 # Container Runtime Survey 2021
 
-A survey to get some data on container runtime would be nice. Not only which once are used, but also what images are used (OCI) and how hardned the feelings are (use of multiple runtimes).
+A survey to get some data on container runtime would be nice. Not only which ones are used, but also what images are used (OCI) and how hardened the feelings are (use of multiple runtimes).
 
 ## Questions (early draft)
 

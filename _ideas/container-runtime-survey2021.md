@@ -8,13 +8,18 @@ A survey to get some data on container runtime would be nice. Not only which one
 
 | #  | Question | Type | Answers |
 |:--:|:---------:|:----:|:---------------------:|
-| R1 | How many HPC container runtimes are supported on the system you are working on? | single choice | 0,1,2,3,4,5 |
-| R2 | How many HPC container runtimes are you using in your daily life for the last 6 month? | single choice | 0,1,2,3,4,5 |
-| R3 | Which HPC container runtimes are you using for your daily workloads? | multiple-choice | Charliecloud, Shifter, Singularity, Sarus, Podman |
-| R4 | Which HPC container runtimes are on your radar but not yet used? | multiple-choice | Charliecloud, Shifter, Singularity, Sarus, Podman |
+| R1 | Which HPC container runtimes are supported on the system(s) you are working on? | multiple-choice | Charliecloud, Shifter, Singularity, Sarus, Podman, other |
+| R1.5 | Which HPC container runtimes are supported on the system(s) and not listed in R1? | text | |
+| R2 | Which HPC container runtimes are you using for your daily workloads? | multiple-choice | Charliecloud, Shifter, Singularity, Sarus, Podman, other |
+| R2.5 | Which HPC container runtimes are you using for your daily workloads which are not listed in R2? | text | |
+| R3 | Which HPC container runtimes are on your radar but not yet used? | multiple-choice | Charliecloud, Shifter, Singularity, Sarus, Podman, other |
+| R3.5 | Which HPC container runtimes are on your radar but not yet used and not listed in R3? | text | |
 
 ### Images
 
 | #  | Question | Type | Answers |
 |:--:|:---------:|:----:|:---------------------:|
-| I1 | What description do you use regularily to build your images? | multi | Dockerfile, SIF recipe, ... |
+| I1 | What is the method you are using to build a container image from scratch? | multi | Dockerfile, SIF recipe, other |
+| I1.5 | What method did we miss to list in I1? | text | |
+| I2 | Do you use higher-level abstractions on-top of the methods in I1? | multi | hpc-container-maker, repo2docker, spack, other |
+| I2.5 | What method did we miss to list in I2? | text | |

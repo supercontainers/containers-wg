@@ -32,7 +32,7 @@ The image section aims to get an overview of how folks are dealing with images
 | I2 | Do you use higher-level abstractions on-top of the methods in I1? | multi | hpc-container-maker, repo2docker, spack, other |
 | I2.5 | What method did we miss to list in I2? | text | |
 | I3 | Once build, do you push the image to a central repository? | single | yes / no |
-| I4 | What container repositories are you pushing builds to? | multi | dockerhub, gcr, ecr, quay, github |
+| I4 | What container repositories are you pushing builds to? | multi | dockerhub, gcr, ecr, quay, github, azure |
 
 ### Potentials
 

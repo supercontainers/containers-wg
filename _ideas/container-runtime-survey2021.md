@@ -1,4 +1,4 @@
-# Containers Working Group for HPC Survey 2021
+# Containers Working Group for HPC Survey
 
 A survey to get some data on container runtime would be nice. Not only which ones are used, but also what images are used (OCI) and how hardened the feelings are (use of multiple runtimes).
 

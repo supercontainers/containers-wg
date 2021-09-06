@@ -38,7 +38,7 @@ This section is focused to ask about HPC workloads running on HPC container runt
 
 ### Images
 
-The image section aims to get an overview of how folks are dealing with images
+The image section aims to get an overview of how users are interacting with container images (building, sharing, Storing)
 
 | #  | Question | Type | Answers |
 |:--:|:---------:|:----:|:---------------------:|

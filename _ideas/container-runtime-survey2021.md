@@ -42,7 +42,7 @@ The image section aims to get an overview of how users are interacting with cont
 
 | #  | Question | Type | Answers |
 |:--:|:---------:|:----:|:---------------------:|
-| I1 | What is the method you are using to build a container image from scratch? | multi | Dockerfile, SIF recipe, other |
+| I1 | What is the method you are using to build a container image? | multi | Dockerfile, SIF recipe, From scratch, other |
 | I1.5 | What method did we miss to list in I1? | text | |
 | I2 | Do you use higher-level abstractions on-top of the methods in I1? | multi | hpc-container-maker, repo2docker, spack, other |
 | I2.5 | What method did we miss to list in I2? | text | |

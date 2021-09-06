@@ -22,7 +22,7 @@ Just so that we can get a sense
 
 ### Container Runtimes
 
-This section is focused to ask about HPC workloads running on HPC container runtimes. Some might use docker to run a single-node container on their workstation - we consider that out of scope because it is hard to differentiate between a service workloads and a HPC workload.
+This section is focused to ask about HPC workloads running on HPC container runtimes. While some might use docker to run a single-node container on their workstation, we do not consider it in this set because it is not traditionally used in HPC environment.
 
 
 | #  | Question | Type | Answers |

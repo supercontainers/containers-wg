@@ -53,8 +53,9 @@ The image section aims to get an overview of how users are interacting with cont
 
 Without making the survey too long, we could also ask the following questions.
 
-1. do you deal with different target architectures in your build process?
-2. Do you use CI/CD for automated build and deploy?
-3. What are you biggest challenges or pain points when using containers, or reasons that you don't use them (fill in the blank)
-4. What do containers not do that you wish they could? What would be an ideal future?
+1. Do you have to build your container image for different CPU architectures? 
+2. Do you care about available accelerators(GPU, FPGA, specialized network hardware) when building your container image?
+3. Do you use CI/CD for automated build and deploy?
+4. What are you biggest challenges or pain points when using containers, or reasons that you don't use them (fill in the blank)
+5. What do containers not do that you wish they could? What would be an ideal future?
 

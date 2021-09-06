@@ -1,7 +1,9 @@
 # Containers Working Group for HPC Survey
 
 A survey to get some data on container runtime would be nice. Not only which ones are used, but also what images are used (OCI) and how hardened the feelings are (use of multiple runtimes).
+## Introduction
 
+Welcome to the Containers Working Group for High Performance Computing Survey! This survey is provided by the [Containers Working Group](https://supercontainers.github.io/containers-wg/) as a community effort to better understand your use of container technologies. This survey is completely optional, and you are free to stop at any time. 
 ## Questions (early draft)
 
 The `.5` questions are just asking about potential `other` answers we missed.

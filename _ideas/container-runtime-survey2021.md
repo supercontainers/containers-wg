@@ -15,7 +15,7 @@ Just so that we can get a sense
 | #  | Question | Type | Answers |
 |:--:|:---------:|:----:|:---------------------:|
 | A1 | What is your primary environment? | single | National Lab, academia, commercial, private research institution, other |
-| A2 | What is your function? | single | Scientist, Admin, RSE, other |
+| A2 | What is your primary job? | single | Scientist, Linux Administrator, Research Software Engineer, Manager, other |
 | A2.5 | Which function is not listed in A2? | text | |
 | A3 | How do you rate your experience with **non-HPC containers**? | single | no experience, beginner, intermediate, expert |
 | A4 | How do you rate your experience with **HPC containers**? | single | beginner, intermediate, expert |

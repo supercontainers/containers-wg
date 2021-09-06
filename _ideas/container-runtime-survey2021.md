@@ -33,7 +33,7 @@ This section is focused to ask about HPC workloads running on HPC container runt
 | R2.5 | Which HPC container runtimes are you using for your daily workloads which are not listed in R2? | text | |
 | R3 | Which HPC container runtimes are on your radar but not yet used? | multiple | Charliecloud, Shifter, Singularity, Sarus, Podman, other |
 | R3.5 | Which HPC container runtimes are on your radar but not yet used and not listed in R3? | text | |
-| R4 | Do you aware of the OCI runtime spec? | single choice | yes / no |
+| R4 | Are you aware of the OCI runtime spec? | single choice | yes / no |
 | R5 | Do you care about the OCI runtime spec? | single choice | yes / no |
 
 ### Images

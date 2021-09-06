@@ -55,4 +55,6 @@ Without making the survey too long, we could also ask the following questions.
 
 1. do you deal with different target architectures in your build process?
 2. Do you use CI/CD for automated build and deploy?
+3. What are you biggest challenges or pain points when using containers, or reasons that you don't use them (fill in the blank)
+4. What do containers not do that you wish they could? What would be an ideal future?
 

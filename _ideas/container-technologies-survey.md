@@ -1,22 +1,27 @@
 ---
-title: Containers Working Group for HPC Survey
+title: Containers Technologies for HPC Survey
 discussion: https://github.com/supercontainers/containers-wg/discussions/39
+plan: https://github.com/sk8forether/containers-wg/blob/main/_ideas/container-technology-survey-plan.md
 ---
 
-# Containers Working Group for HPC Survey
+# Containers Technologies for HPC Survey
 
-A survey to get some data on container runtime would be nice. Not only which ones are used, but also what images are used (OCI) and how hardened the feelings are (use of multiple runtimes).
-## Introduction
+## Welcome to the Container Technologies for High Performance Computing Survey!
 
-Welcome to the Containers Working Group for High Performance Computing Survey! This survey is provided by the [Containers Working Group](https://supercontainers.github.io/containers-wg/) as a community effort to better understand your use of container technologies. This survey is completely optional, and you are free to stop at any time.
+### Purpose
+This survey is being conducted by the [Containers Working Group](https://supercontainers.github.io/containers-wg/) with the goal of assessing the community's opinion about container technologies for HPC specifically, and scientific computing generally.
 
-## Questions (early draft)
+### About Us
+The Containers Working Group is hosted in the [#containers-wg](https://hpc-containers.slack.com/archives/C023C51T8SG) channel of the hpc-containers Slack workspace.  We are a community of researchers interested in containers for High Performance Computing (HPC).  Feel free to [join the Slack](https://join.slack.com/t/hpc-containers/shared_invite/zt-ak9q6jw7-UZgpv7IJua5jCtJ_db_yAQ) and say hello!
 
-The `.5` questions are just asking about potential `other` answers we missed.
+### Informed Consent
+This survey is completely optional, and you are free to stop at any time.
 
-### About yourself
+(This section needs more)
 
-Just so that we can get a sense
+## Questions
+
+### About Yourself (Demographics)
 
 | #  | Question | Type | Answers |
 |:--:|:---------:|:----:|:---------------------:|

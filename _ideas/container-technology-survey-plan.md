@@ -1,3 +1,8 @@
+---
+title: Containers Working Group for HPC Survey
+discussion: https://github.com/supercontainers/containers-wg/discussions/39
+---
+
 # Container Technologies Survey Plan
 
 ## Objectives

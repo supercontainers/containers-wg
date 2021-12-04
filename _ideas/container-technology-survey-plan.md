@@ -4,7 +4,7 @@
 Purpose of survey: To assess the community's opinion about container technologies for HPC specifically, and scientific computing generally.
 
 ### Main
-1. Determine the makeup of the community of people using container technologies for HPC applications (and possibly all scientific applications?)
+1. Determine the makeup of the community of people using container technologies for HPC applications (and possibly all types of scientific applications?)
 2. Determine the popularity of different container technologies for HPC applications (and science apps)
 3. Assess the opinions about current container technologies for HPC
 4. Assess who consumes containers vs. who develops containers vs. who configures container runtimes, registries, and other container technologies
@@ -54,10 +54,30 @@ So far, we have only discussed using convenience sampling, but this will signifi
 
 ## Data Analysis Plan
 
-The types of statistical methods we can employ to analyze the data are dependent on the sampling method selected.
+***Note:*** The types of statistical methods we can employ to analyze the data are dependent on the sampling method selected, so we must answer that to complete this Data Analysis plan.
+
+### Expected Data Collection Based On Objectives
+
+| **[Main Objectives](#main)** | **Data Type** | **Data To Collect** |
+| ----------- | ----------- | ----------- |
+| 1. Determine the makeup of the community of people using container technologies for HPC applications | Nominal | demographic categories, industry, job title (or student status) |
+| 2. Determine the popularity of different container technologies for HPC applications (and science apps) | Nominal | list of container technologies and locations container technologies are used (see [Focus of Questions](#focus-of-questions)), what type of applications are being run (science, HPC, other, etc.)|
+|  | Ratio | total number of users of each container technology within sample, breakdown of container technology used by application and/or industry |
+| 3. Assess the opinions about current container technologies for HPC | Ordinal | level of experience with HPC, level of experience with specific container technologies used, level of satisfaction with container technologies used |
+|   | Ratio | total number of people in sample who are using container technologies for HPC (including breakdown for various levels of experience), total numbers of people in sample at various levels of experience with container technologies, total number of people at various satisfaction levels for container technologies |
+| 4. Assess who consumes containers vs. who develops containers vs. who configures container runtimes, registries, and other container technologies | Nominal | purpose for using container technologies: usage of container images built by someone else, developer of containers and related technologies for others to use, and/or sysadmin or similar who configures container runtimes, registries, and/or other container technologies on systems for users to access |
+|   | Ratio | total number of people in sample who fit each category, breakdown of technology usage purpose by application and/or industry |
 
 
+| **[Optional Objectives](#optional)** | **Data Type** | **Data To Collect** |
+| ----------- | ----------- | ----------- |
+| Assess the opinions about current OCI specification implementations | Nominal | short answer about what is liked/disliked about the container technologies used |
+|   | Ordinal | level of familiarity with the OCI specification, level of satisfaction with the OCI specification (if familiar), short answer about what is liked/disliked about OCI spec (if familiar)? |
+|   | Ratio | total number of people in sample who are both experienced with HPC and familiar with OCI spec, total number of people at various levels of satisfaction with OCI spec |
+| Collect opinions on requested improvements to the OCI specification for HPC containers | Nominal | short answer about what is liked/disliked about OCI spec (if familiar) and suggestions for improvement |
 
+### Analysis
+All of the above collected data, whether collected with convenience sampling or random sampling, will be aggregated to get a sense of the sample population first, with nonresponses and dropouts calculated.  Nominal and ordinal data will be used to create categorical breakdowns of ratio data, and ratio data will have summary statistics calculated.  Further breakdowns and analyses can be determined based on sampling methods used and features of the data.
 
 ## Survey Design
 
@@ -79,7 +99,7 @@ To decrease nonresponse error and dropout, we can [\[1, 2\]](#references):
 * Simplify the effort of responding to questions (i.e. do not make people fill out excessive or tedious formats)
 * Ask questions based on whether participants do certain tasks (i.e. developers could get different questions than those maintaining their own registries)
 * Cater questions towards expertise and knowledge (i.e. don't ask questions about Shifter if they've never used it)
-* Allow “decline to answer” or “not applicable” options (also follows good informed consent practices)
+* Allow “decline to answer” or “not applicable” options (also follows good informed consent practices) - this could be especially important for the optional objectives, and perhaps default answers for these should be "not applicable" and the repsondent must change this to answer the question
 * Do not allow multiple responses, or delete multiples from the same respondent
 
 ***Remaining Question:*** How will we handle multiple responses (same respondent repeated input)?
@@ -87,10 +107,10 @@ To decrease nonresponse error and dropout, we can [\[1, 2\]](#references):
 ### Other Notes
 * Include optional demographics collection, especially the respondent's industry and job title
 * We can use the website design to implement some of the features desired in the Decreasing Error section, such as hiding questions that do not pertain
+* Furthermore, we should design the questions with Diversity, Equity, and Inclusion (DEI) in mind, and have the questions reviewed by folks with expertise on phrasing questions appropriately to minimize bias against marginalized groups.
 
 ## Testing the Survey
-
-
+The final survey implementation and questions can be tested by the Containers Working Group participants to ensure functionality, simplicity, and clarity.  All correctly recorded results from the tests can be kept as part of the dataset - if using convenience sampling - with the caveat that we must note this and that those directly involved in this survey design should likely not be included in final results due to confilict of interest.
 
 ## How we will Conduct the Survey
 
@@ -106,6 +126,8 @@ To decrease nonresponse error and dropout, we can [\[1, 2\]](#references):
 
 * Respondents will submit responses via our website form, data will be automatically stored for each response, multiple responses should be accounted for, and results will be retrieved after the survey has closed so analysis can begin.
 
+***Remaining Question:*** Do we plan to do any recruitment for the survey?  Will we partner with HPC/Research related marketing orgs like insideHPC, HPC wire, and related to help us expand our reach?  This will likely be necessary if we plan to reach a worldwide audience.
+
 ***Remaining Question:*** How long to expect to keep the survey open for?  We will need to keep the survey open long enough to reach the appropriate sample size that meets the desired margin of error to accomplish a 95% confidence interval.
 
 ## Remaining Questions
@@ -113,11 +135,14 @@ To decrease nonresponse error and dropout, we can [\[1, 2\]](#references):
 
 * Do we intend to focus on results pertaining to HPC? As in, maybe we collect results from anyone who is willing to fill it out, but we are really concerned with folks using containers for HPC in some way. Said another way: Are we interested in results from folks who have only ever used containers for non-HPC tasks, and thus may have a biased opinion about HPC containers?
 * Are we planning to use convenience sampling or a form of random sampling?
+  
+  ***Note:*** The types of statistical methods we can employ to analyze the data are dependent on the sampling method selected, so we must answer that to complete this Data Analysis plan.
+
 * What is our sample size?  This is determined by calculating the margin of error based on population size.  However, do we really know the population size?
 * How will we handle multiple responses (same respondent repeated input)?
 * Do we have a draft of an informed consent section?
+* Do we plan to do any recruitment for the survey?  Will we partner with HPC/Research related marketing orgs like insideHPC, HPC wire, and related to help us expand our reach?  This will likely be necessary if we plan to reach a worldwide audience.
 * How long to expect to keep the survey open for?  We will need to keep the survey open long enough to reach the appropriate sample size that meets the desired margin of error to accomplish a 95% confidence interval.
-
 
 ## References
 

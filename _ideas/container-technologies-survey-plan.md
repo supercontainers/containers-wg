@@ -129,20 +129,6 @@ The final survey implementation and questions can be tested by the Containers Wo
 
 ***Remaining Question:*** How long to expect to keep the survey open for?  We will need to keep the survey open long enough to reach the appropriate sample size that meets the desired margin of error to accomplish a 95% confidence interval.
 
-## Remaining Questions
-(This section is an aggregation of above listed remaining questions)
-
-* Do we intend to focus on results pertaining to HPC? As in, maybe we collect results from anyone who is willing to fill it out, but we are really concerned with folks using containers for HPC in some way. Said another way: Are we interested in results from folks who have only ever used containers for non-HPC tasks, and thus may have a biased opinion about HPC containers?
-* Are we planning to use convenience sampling or a form of random sampling?
-  
-  ***Note:*** The types of statistical methods we can employ to analyze the data are dependent on the sampling method selected, so we must answer that to complete this Data Analysis plan.
-
-* What is our sample size?  This is determined by calculating the margin of error based on population size.  However, do we really know the population size?
-* How will we handle multiple responses (same respondent repeated input)?
-* Do we have a draft of an informed consent section?
-* Do we plan to do any recruitment for the survey?  Will we partner with HPC/Research related marketing orgs like insideHPC, HPC wire, and related to help us expand our reach?  This will likely be necessary if we plan to reach a worldwide audience.
-* How long to expect to keep the survey open for?  We will need to keep the survey open long enough to reach the appropriate sample size that meets the desired margin of error to accomplish a 95% confidence interval.
-
 ## References
 
 [1] https://study.sagepub.com/sites/default/files/Fricker.pdf

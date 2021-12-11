@@ -53,8 +53,6 @@ In the future, if we were to select a random sampling method, simple random samp
 
 ## Data Analysis Plan
 
-***Note:*** The types of statistical methods we can employ to analyze the data are dependent on the sampling method selected, so we must answer that to complete this Data Analysis plan.
-
 ### Expected Data Collection Based On Objectives
 
 | **[Main Objectives](#main)** | **Data Type** | **Data To Collect** |
@@ -127,7 +125,7 @@ The final survey implementation and questions can be tested by the Containers Wo
 
 ***Remaining Question:*** Do we plan to do any recruitment for the survey?  Will we partner with HPC/Research related marketing orgs like insideHPC, HPC wire, and related to help us expand our reach?  This will likely be necessary if we plan to reach a worldwide audience.
 
-***Remaining Question:*** How long to expect to keep the survey open for?  We will need to keep the survey open long enough to reach the appropriate sample size that meets the desired margin of error to accomplish a 95% confidence interval.
+***Remaining Question:*** How long do we expect to keep the survey open for?  As in, what is our minimum sample size (and then we wait until we get this before considering closing the survey)?
 
 ## References
 

@@ -1,7 +1,6 @@
 ---
 title: Containers Technologies for HPC Survey
 discussion: https://github.com/supercontainers/containers-wg/discussions/39
-plan: https://github.com/sk8forether/containers-wg/blob/main/_ideas/container-technology-survey-plan.md
 ---
 
 # Containers Technologies for HPC Survey
@@ -9,7 +8,7 @@ plan: https://github.com/sk8forether/containers-wg/blob/main/_ideas/container-te
 ## Welcome to the Container Technologies for High Performance Computing Survey!
 
 ### Purpose
-This survey is being conducted by the [Containers Working Group](https://supercontainers.github.io/containers-wg/) with the goal of assessing the community's opinion about container technologies for scientific computing.
+This survey is being conducted by the [Containers Working Group](https://supercontainers.github.io/containers-wg/) with the goal of assessing the community's opinion about container technologies for scientific computing.  For more information, see the [Survey Plan](https://github.com/sk8forether/containers-wg/blob/main/_ideas/container-technology-survey-plan.md).
 
 ### About Us
 The Containers Working Group is hosted in the [#containers-wg](https://hpc-containers.slack.com/archives/C023C51T8SG) channel of the hpc-containers Slack workspace.  We are a community of researchers interested in containers for High Performance Computing (HPC).  Feel free to [join the Slack](https://join.slack.com/t/hpc-containers/shared_invite/zt-ak9q6jw7-UZgpv7IJua5jCtJ_db_yAQ) and say hello!
